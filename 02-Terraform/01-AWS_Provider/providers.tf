@@ -1,11 +1,5 @@
-terraform {
-  required_providers {
-    aws = {
-      source = "hashicorp/aws"
-    }
-  }
-}
-
 provider "aws" {
-  region = "us-west-1"
+  region     = "us-east-1"
+  access_key = "AKIAWJNUWDSXBWGJQG7L"
+  secret_key = "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"
 }
